@@ -26,6 +26,7 @@ Dog& Dog::operator=(const Dog& t)
     if(this != &t)
     {
         _type = t._type;
+         delete this->_brain;
         _brain = new Brain(*t._brain);
         std::cout<<"Copy assignment operator called - Dog"<<std::endl;
     }

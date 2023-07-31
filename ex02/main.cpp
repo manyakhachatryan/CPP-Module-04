@@ -22,7 +22,9 @@ int main()
     {
        delete arr[i];
     }
-
+    
+    //Animal *a = new Animal();
+    
     return 0;
 }
 

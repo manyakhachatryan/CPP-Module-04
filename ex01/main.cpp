@@ -22,7 +22,6 @@ int main()
     {
        delete arr[i];
     }
-
     return 0;
 }
 
